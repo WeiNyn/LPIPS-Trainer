@@ -1,0 +1,6 @@
+lightning_logs/
+lpips_trainer/
+test/
+train/
+u2net_results_gen/
+u2netp_results/
