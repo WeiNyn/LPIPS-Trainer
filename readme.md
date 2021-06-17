@@ -65,8 +65,6 @@ class Setting:
 
 Change the train_folder and test_folder in Setting class, the folder must follow the ImageFolder dataset format.
 
-You can change the train souce code for replacing the resnet18 with resnet50, se source code implementation for mor details
-
 Tensorboard log stored at __lightning_logs/__
 
 Checkpoint stored at __checkpoints/__
@@ -74,7 +72,7 @@ Checkpoint stored at __checkpoints/__
 Run training code by:
 
 ```sh
-python src/train/trainer.py
+python src/trainer.py
 ```
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
